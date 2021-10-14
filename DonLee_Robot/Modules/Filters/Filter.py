@@ -51,7 +51,7 @@ async def auto_filter(bot, update):
         reply_markup = InlineKeyboardMarkup(buttons)
         await bot.send_message(
         chat_id=update.chat.id,
-        text="<b>Please dont send the word <code>Movie</code> with your Movie name 😪\nTry Reading the help box below</b> 👇🏽",
+        text="<b>Please dont send the word <code>Movie</code> with your Movie name 😪\n\nJust type only movie name and year‼️\n\nTry Reading the help box below</b> 👇🏽",
         reply_markup=reply_markup,
         parse_mode="html",
         reply_to_message_id=update.message_id)

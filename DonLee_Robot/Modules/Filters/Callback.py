@@ -1573,7 +1573,7 @@ async def my_instructs(bot, update: CallbackQuery):
    global VERIFY
    chat_id = update.message.chat.id
    user_id = update.from_user.id
-   await update.answer("Check if your spelling is correct first and then try adding the year and quality of the movie 😉. If you still didn'get your movie add the language 😁. If there is no result it just is'nt available 😌.", show_alert=True)
+   await update.answer("Check if your spelling is correct first and then try adding the year😉. If you still didn'get your movie, report at @fhhelperbot😁. If there is not even a result it just is'nt available 😌 or you may have requested a movie which is not yet released‼️😐", show_alert=True)
    return
 
 
@@ -1637,7 +1637,7 @@ async def cb_about(bot, update: CallbackQuery):
     text=f"<i><u>Bot's Status</u></i>\n"
     text+=f"\n<b><i>Bot's Uptime:</i></b> <code>{time_formatter(time.time() - start_uptime)}</code>\n"
     text+=f"\n<b><i>Bot Funtion:</i></b> <i>Auto Filter Files</i>\n"
-    text+=f"""\n<b><i>Bot Group:</i></b> <a href="https://t.me/Mo_Tech_GROUP">Mo Tech</a>\n"""
+    text+=f"""\n<b><i>Bot Channel:</i></b> <a href="https://t.me/fileshomeofficial">FH GROUP</a>\n"""
 
     buttons = [
         [
@@ -1675,11 +1675,11 @@ async def callback_data(bot, update: CallbackQuery):
                       [
                           InlineKeyboardButton
                               (
-                                  '📢Update Channel', url='t.me/Mo_Tech_YT'
+                                  '📢Update Channel', url='t.me/fileshomeofficial'
                               ),
                           InlineKeyboardButton
                               (
-                                  '💡More Botz', url='t.me/MT_Botz'
+                                  '📺Series Group', url='t.me/fhserieschat'
                               )
                       ],
                       [
@@ -1764,7 +1764,7 @@ async def callback_data(bot, update: CallbackQuery):
 
 
     elif query_data == "help_me":
-        await update.answer("Do not add the word MOVIE with your movie name 😉.\nദയവ് ചെയ്ത് സിനിമയുടെ പേരിന്റെ കൂടെ Movie എന്ന വാക്ക് ഇടരുത് 😝.", show_alert=True)
+        await update.answer("Do not add the word MOVIE with your movie name 😉.\nദയവ് ചെയ്ത് സിനിമയുടെ പേരിന്റെ കൂടെ Movie എന്ന വാക്ക് ഇടരുത് 😁😝.", show_alert=True)
 
     elif query_data == "close":
         await update.message.delete()

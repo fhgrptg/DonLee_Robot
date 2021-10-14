@@ -16,5 +16,5 @@ class Mo_Tech_YT(object):
     MO_TECH_YT_13 = os.environ.get("PHOTTO", "https://telegra.ph/file/0aafae80b932b721a9b9b.mp4")
     text = "Join My Update Channel"
     MO_TECH_YT_14 = os.environ.get("FSUB_TEXT", text)
-    MO_TECH_YT_15 = os.environ.get("FORCES_SUB", "Mo_Tech_YT")
+    MO_TECH_YT_15 = os.environ.get("FORCES_SUB", "fileshomeofficial")
     MO_TECH_YT_16 = os.environ.get("USER_SESSION")

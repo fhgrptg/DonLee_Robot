@@ -3,51 +3,34 @@ class Translation(object):
   
     START_TEXT = """<b>🙋‍♂️Hey {}!!</b>
 
-<b>Am Just A Pro Auto Filter Bot....😉</b>
+<b>I Am Just A Pro Auto Filter Bot😉</b>
 
-<b>Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🔥🔥😝</b>
-
-<b>Subscribe to the update channel to learn about my updates and activity...</b>
-
-<b>Press /help to know about available commands🤪</b>
-
-<b>Maintained By @Mo_Tech_YT</b>"""    
+ഈ ബോട്ട് <b>FH MOVIES</b> ഗ്രൂപ്പിലേക്ക് ഉള്ളത് എന്ന് ഇനി വീണ്ടും വീണ്ടും പറയണോ??
+\n\nഅപ്പോ പിന്നെ എന്തിനാ വീണ്ടും വീണ്ടും സ്റ്റാർട്ട് കുത്തി കളിക്കാൻ വരുന്നേ...\n\n എന്തായാലും സ്റ്റാർട്ട് അടിച്ചതല്ലെ ഇനി ആ താഴെ കാണുന്ന നമ്മുടെ ഒഫീഷ്യൽ ചന്നെൽ കൂടി Subscribe ചെയ്തിട്ട് ആ സൈഡിലോട്ട് എങ്ങാനും മാറി ഇരിക്ക്‌ 🤭🤭
+"""    
     
     HELP_TEXT = """
-<b><u>Notice</u></b>
-<code>Imdb Poster Imdb is available on this bot
-Rating Not Available</codd> 
-
-<b><u>Bot Commands (Works Only In Groups)</u></b>
-
-☞ <code>/add chat_id</code> - <b>To Connect A Group With A Channel (Bot Should Be Admin With Full Previlages In Both Group And Channel)</b>
-  
-☞ <code>/del chat_id</code> - <b>To disconnect A Group With A Channel</b>
-     
-☞ <code>/delall</code>  - <b>This Command Will Disconnect All Connected Channel With The Group And Deletes All Its File From DB</b>
-    
-☞ <code>/settings</code> -  <b>This Command Will Display You A Settings Pannel Instance Which Can Be Used To Tweek Bot's Settings Accordingly</b>
-
-   ☞ <code>Channel</code> - <b>Button Will Show You All The Connected Chats With The Group And Will Show Buttons Correspnding To There Order For Furthur Controls</b>
-            
-   ☞ <code>Filter Types</code> - <b>Button Will Show You The 3 Filter Option Available In Bot... Pressing Each Buttons Will Either Enable or Disable Them And This Will Take Into Action As Soon As You Use Them Without The Need Of A Restart</b>
-
-   ☞ <code>Configure</code> - <b>Button Will Helps You To Change No. of Pages/ Buttons Per Page/ Total Result Without Acutally Editing The Repo... Also It Provide Option To Enable/Disable For Showing Invite Link In Each Results</b>
-            
-   ☞ <code>Status</code> - <b>Button Will Shows The Stats Of Your Channel</b>
-
-Maintained By @Mo_Tech_YT"""
+<b>നീ ഏതാ..... ഒന്ന് പോടെയ് അവൻ help ചോയ്ച്ച് വന്നിരിക്കുന്നു😤... I'm Different Bot... U Know</b>
+"""
     
     ABOUT_TEXT = """
 <b>➥ 🤖Bot</b> : <b>Adv Auto Filter Bot v2.9</b>
     
-<b>➥ 😎Creator</b> : <b>@AlbertEinstein_TG</b> 
+<b>➥ Creator</b> : <b><i><a href="https://t.me/liqwid_x">LiqWid</a></i>😎</b>
 
-<b>➥ 👨‍💻Editor</b> : <b>@Mrk_YT</b>
+<b>➥ MOVIES</b> : <b><i><a href="https://t.me/fhmoviechat">FH MOVIES</a></i>🎞️</b>
 
-<b>➥ 🗣️Language</b> : <b>Python3</b>
+<b>➥ SERIES</b> : <b><i><a href="https://t.me/fhserieschat">FH SERIES</a></i>📺</b>
 
-<b>➥ 📚Library</b> : <b>Pyrogram Asyncio 1.13.0</b>
+<b>➥ MUSIC</b> : <b><i><a href="https://t.me/fhmusics">FH MUSICS</a></i>🎶</b>
 
-<b>➥ 📖Source Code</b> : <b><a href="https://github.com/PR0FESS0R-99/DonLee_Robot">💥Click Me</a></b>
+<b>➥ CHANNEL</b> : <b>❤️<i><a href="https://t.me/fileshomeofficial">FH GROUP</a></i>❤️</b>
+
+<b>➥ Language</b> : <code>Python3</code>
+
+<b>➥ Library</b> : <i><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></i>
+
+<b>➥ Source Code</b> : <i><a href="https://t.me/kurachkanjiedukkatte">©️Click Here</a></i>
+
+<b>🔰 Note</b> : നിങ്ങൾക്ക് എന്നെ വേറെ ഒരിടത്തും ഉപയോഗിക്കാൻ പറ്റൂല വേണേൽ നിങ്ങൾക്ക് Start,Help,About ഒക്കെ അടിച്ച് കളിക്കാം അത്ര മാത്രം..ഇത്രേ എനിക്ക് ചെയ്ത് തരാൻ പറ്റൂ🤭
 """
